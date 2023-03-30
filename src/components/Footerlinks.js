@@ -48,14 +48,14 @@ export default Footerlinks
 //       <h1>hello world</h1>
 //     </div>
 // }
-// HOC = (wrapper , color) =>{
+// HOC = (Wrapper , color) =>{
 //   return(this.props)(
-//     <div>
-//       <wrapper {...this.props}/>
+//     <div style={{color : color}}>
+//       <Wrapper {...this.props}/>
 //     </div>
 //   )
 // }
-// Comp = HOC(this.Text,this.color)
+// Comp = HOC(this.Text,'red')
 
 
 //   render() {
